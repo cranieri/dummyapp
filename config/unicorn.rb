@@ -4,7 +4,7 @@ working_directory "/opt/demo-rails-app"
 
 # Unicorn PID file location
 # pid "/path/to/pids/unicorn.pid"
-pid "/opt/demo-rails-app/pids/unicorn.pid"
+pid "/opt/pids/unicorn.pid"
 
 # Path to logs
 # stderr_path "/path/to/log/unicorn.log"
