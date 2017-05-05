@@ -22,3 +22,4 @@
 
 pids/
 log/.keep
+vendor/bundle/
