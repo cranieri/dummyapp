@@ -7,7 +7,9 @@ require 'spec_helper'
 require 'rspec/rails'
 
 require 'simplecov'
-SimpleCov.start
+SimpleCov.start do
+  add_filter /spec/
+end
 
 # Add additional requires below this line. Rails is not loaded until this point!
 
