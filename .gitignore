@@ -23,3 +23,5 @@
 pids/
 log/.keep
 vendor/bundle/
+
+coverage/

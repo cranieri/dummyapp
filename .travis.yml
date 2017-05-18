@@ -1,6 +1,8 @@
 language: ruby
 rvm:
   - 2.2.2
+script:
+  - scripts/coverage.sh
 deploy:
   provider: script
   script: scripts/deploy.sh
