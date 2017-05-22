@@ -16,6 +16,7 @@
 # users commonly want.
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
+ENV["CODECLIMATE_REPO_TOKEN"] = "8294624bd76c51722e5761ea7718334008c2efc1b21345f7e9d4936daa7bab43"
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
   # assertion/expectation library such as wrong or the stdlib/minitest
